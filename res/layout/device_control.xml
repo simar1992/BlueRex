@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/splash_screen" >
+
+    <Button
+        android:id="@+id/down_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/up_button"
+        android:layout_below="@+id/stop_button"
+        android:layout_marginTop="37dp"
+        android:background="@raw/arrow_down" />
+
+    <Button
+        android:id="@+id/stop_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/up_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@raw/stop1" />
+
+    <Button
+        android:id="@+id/right_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stop_button"
+        android:layout_alignBottom="@+id/stop_button"
+        android:layout_marginLeft="38dp"
+        android:layout_toRightOf="@+id/stop_button"
+        android:background="@raw/arrow_right" />
+
+    <Button
+        android:id="@+id/left_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stop_button"
+        android:layout_alignBottom="@+id/stop_button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:background="@raw/arrow_left" />
+
+    <Button
+        android:id="@+id/up_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@raw/arrow_up" />
+
+    <TextView
+        android:id="@+id/Copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="(c) SIMAR MANN SINGH"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="CONTROL PANEL"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>
